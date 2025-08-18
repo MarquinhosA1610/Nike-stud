@@ -11,7 +11,7 @@
 
 <body>
 
-        <img src="/src/logo.png" alt="logo-nike" class="logo"> 
+        <img src="img/logo.png" alt="logo-nike" class="logo"> 
 
     <Header class="Principal">
 
@@ -27,22 +27,23 @@
     </p>
 
     
-    <button class="VALORES"> VALORES </button>
+    <button class="VALORES" onclick="mostrarValor( )"> VALORES </button>
   
    </div>
 
-    <article class="PRINCIPAL-img"> 
-            <img src="./src/logo.tenis.png" alt="IMG-PRINCIPAL""">
+    <article class="imgPrince"> 
+            <img src="./img/logo.tenis.png" class="IMG-PRINCIPAL""">
     </article>
 
     </Header>
  
     <div class="OPTIONS">
 
-        <div  class="BOTOES  Green"></div>
-        <div class="BOTOES  Blue"></div>
-        <div class="BOTOES  PINK"></div>
+            <div  class="BOTOES  Green" onclick="TrocaTudo('rgb(110, 165, 38)', 'img/logo.tenis.png',)" ></div>
+            <div class="BOTOES  Blue" onclick="TrocaTudo(' #58cced', 'img/nike2-blue.png',)" ></div>
+            <div class="BOTOES  PINK" onclick="TrocaTudo(' #ff9eb5', 'img/nike3-pink.png',)" ></div>
     </div>
+
 
     </body>
 
